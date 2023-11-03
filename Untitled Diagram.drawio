@@ -1,46 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T23:58:07.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="q1LjLNZgsY-IHLSlEbQi" version="14.9.8" type="github">
-  <diagram id="wuvXNdlwtginPlQ2-gvM" name="Page-1">
-    <mxGraphModel dx="652" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-11-03T18:09:36.706Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.0.8" etag="WaqoGvSBnIcHwUvSnxT2" type="github">
+  <diagram name="Page-1" id="er6DXPStw4f35O4a6FD7">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="K4fpdkBJk-IE42zM-yy6-1" value="Spark UDF&lt;br&gt;(AES-256-cbc with PCKS7 padding)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="280" y="170" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K4fpdkBJk-IE42zM-yy6-2" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K4fpdkBJk-IE42zM-yy6-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="260" as="sourcePoint" />
-            <mxPoint x="480" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K4fpdkBJk-IE42zM-yy6-3" value="Input data" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="K4fpdkBJk-IE42zM-yy6-1">
-          <mxGeometry x="-0.4286" y="40" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="100" as="sourcePoint" />
-            <mxPoint x="250" y="100" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K4fpdkBJk-IE42zM-yy6-5" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="230" as="sourcePoint" />
-            <mxPoint x="280" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K4fpdkBJk-IE42zM-yy6-8" value="KEKs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K4fpdkBJk-IE42zM-yy6-5">
-          <mxGeometry x="-0.375" y="-3" relative="1" as="geometry">
-            <mxPoint x="-15" y="-23" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K4fpdkBJk-IE42zM-yy6-6" value="Passphrase" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="K4fpdkBJk-IE42zM-yy6-1">
-          <mxGeometry x="-0.5" y="20" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="170" as="sourcePoint" />
-            <mxPoint x="210" y="190" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K4fpdkBJk-IE42zM-yy6-7" value="Decrypted&amp;nbsp;&lt;br&gt;data (Desired ouput)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="190" width="40" height="20" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
