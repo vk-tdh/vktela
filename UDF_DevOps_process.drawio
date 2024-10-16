@@ -1,9 +1,128 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="iBhts3QtwqwNeht7e5OJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1197" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eF5Utz4BYvkF4U182L2F-7" value="Limited read/write access&amp;nbsp;&lt;div&gt;to UDF resources&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.057;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eF5Utz4BYvkF4U182L2F-1" target="eF5Utz4BYvkF4U182L2F-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="497" y="229.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-1" value="UDF-DataEng-Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-2" value="DevOps + Direct assignments" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="406.29999999999995" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-13" value="UDF Platform Team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-14" value="Request through MyAccess" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eF5Utz4BYvkF4U182L2F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="130" as="sourcePoint" />
+            <mxPoint x="300" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-16" value="UDF Resources" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="410" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eF5Utz4BYvkF4U182L2F-2" target="eF5Utz4BYvkF4U182L2F-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="sourcePoint" />
+            <mxPoint x="710" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-34" value="Full access to UDF resources" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eF5Utz4BYvkF4U182L2F-32">
+          <mxGeometry x="-0.078" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-36" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-39" value="We always need DevOps help to make/fix any changes beyond DataEng Admin&amp;nbsp;&lt;div&gt;which is highly limited and can be considered as almost read-only&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eF5Utz4BYvkF4U182L2F-36">
+          <mxGeometry x="0.2235" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-40" value="Limited read/write access&amp;nbsp;&lt;div&gt;to UDF resources&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.057;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eF5Utz4BYvkF4U182L2F-41" target="eF5Utz4BYvkF4U182L2F-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557" y="739.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-41" value="UDF-DataEng-Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="640" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-42" value="DevOps" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="989.9999999999999" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-43" value="UDF Platform Team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-44" value="Request through MyAccess" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="600" as="sourcePoint" />
+            <mxPoint x="340" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-45" value="UDF Resources" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="650" width="410" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-46" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="eF5Utz4BYvkF4U182L2F-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1010" as="sourcePoint" />
+            <mxPoint x="770" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-47" value="No direct roles assignments,&lt;div&gt;unless approved by UDF Env owner&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eF5Utz4BYvkF4U182L2F-46">
+          <mxGeometry x="-0.078" y="-1" relative="1" as="geometry">
+            <mxPoint x="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-51" value="UDF Platform Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="800" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eF5Utz4BYvkF4U182L2F-51" target="eF5Utz4BYvkF4U182L2F-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-58" value="Full access to&amp;nbsp;&lt;div&gt;UDF resources&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eF5Utz4BYvkF4U182L2F-52">
+          <mxGeometry x="0.0604" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-60" value="Request through MyAccess" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="650" as="sourcePoint" />
+            <mxPoint x="310" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-62" value="Request through MyAccess" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="980" as="sourcePoint" />
+            <mxPoint x="350" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-68" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1010" as="sourcePoint" />
+            <mxPoint x="120" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-69" value="No dependency to DevOps,&amp;nbsp;&lt;div&gt;unless we need to change something outside L3/L4,&amp;nbsp;&lt;div&gt;which is super unlikely)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eF5Utz4BYvkF4U182L2F-68">
+          <mxGeometry x="0.2235" relative="1" as="geometry">
+            <mxPoint x="-28" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF5Utz4BYvkF4U182L2F-70" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="520" as="sourcePoint" />
+            <mxPoint x="1650" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
